@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.2)
+
+# PROJECT META INFO
+set(CPU_TEMP_VISUALIZATION_PROJECT_NAME        "CPU_TEMP_VISUALIZATION")
+set(CPU_TEMP_VISUALIZATION_PROJECT_DESCRIPTION "CPU temperature visualization tool")
+set(CPU_TEMP_VISUALIZATION_AUTHOR_DOMAIN       "https://github.com/JakubBacik/cpu_temp_visualization")
+
+# DECLARE PROJECT
+
+project(${CPU_TEMP_VISUALIZATION_PROJECT_NAME})
+
+set(CPU_TEMP_VISUALIZATION_SRC_DIR ${PROJECT_SOURCE_DIR}/src)
+
+add_subdirectory(src)
